@@ -141,7 +141,7 @@
     <value>ArtNet 输出</value>
   </data>
   <data name="ArtnetFixtureType_DIMMER" xml:space="preserve">
-    <value>调光器</value>
+    <value>Dimmer</value>
   </data>
   <data name="ArtnetFixtureType_RGB" xml:space="preserve">
     <value>RGB</value>
@@ -189,10 +189,10 @@
     <value>选择 '{0}' 文件夹的路径</value>
   </data>
   <data name="ClosePromptCaption" xml:space="preserve">
-    <value>关闭应用程序</value>
+    <value>退出应用</value>
   </data>
   <data name="ClosePromptMessage" xml:space="preserve">
-    <value>此应用程序负责保持所有服务器组件运行。
+    <value>此应用负责保持所有服务器组件运行。
 关闭它将终止所有服务器服务。
 是否要继续？</value>
   </data>
@@ -233,7 +233,7 @@
     <value>进程已停止</value>
   </data>
   <data name="MenuBarOptionsOpenAtLogin" xml:space="preserve">
-    <value>登录时启动</value>
+    <value>在登录时启动</value>
   </data>
   <data name="ConfigSupressEmptyLines" xml:space="preserve">
     <value>忽略控制台空行</value>
@@ -249,7 +249,7 @@
     <value>CasparCG 项目</value>
   </data>
   <data name="ConfigTabEditConfigFilesDesc" xml:space="preserve">
-    <value>要编辑 'casparcg.config' 以外的文件，请在点击"编辑文件"按钮时按住 Shift 键</value>
+    <value>要编辑 'casparcg.config' 之外的文件，请在点击"编辑文件"按钮时按住 Shift 键</value>
   </data>
   <data name="ConfigTabExecGbHeader" xml:space="preserve">
     <value>可执行文件</value>
@@ -315,7 +315,7 @@
     <value>刷新率</value>
   </data>
   <data name="ConfigWindowChannelsAnUniverse" xml:space="preserve">
-    <value>宇宙</value>
+    <value>Universe</value>
   </data>
   <data name="ConfigWindowChannelsBfDevice" xml:space="preserve">
     <value>设备</value>
@@ -423,16 +423,16 @@
     <value>仅键</value>
   </data>
   <data name="ConfigWindowChannelsDlPorts" xml:space="preserve">
-    <value>附加同步端口</value>
+    <value>额外同步端口</value>
   </data>
   <data name="ConfigWindowChannelsDlWaitForReference" xml:space="preserve">
-    <value>等待参考</value>
+    <value>等待 Reference</value>
   </data>
   <data name="ConfigWindowChannelsDlWaitForReferenceDuration" xml:space="preserve">
-    <value>等待参考时长</value>
+    <value>等待 Reference 时长</value>
   </data>
   <data name="ConfigWindowChannelsDlWaitForReferenceDurationDetail" xml:space="preserve">
-    <value>（时间以秒为单位）</value>
+    <value>（以秒为单位）</value>
   </data>
   <data name="ConfigWindowChannelsFfArgs" xml:space="preserve">
     <value>参数</value>
@@ -447,7 +447,7 @@
     <value>此消费者没有设置选项</value>
   </data>
   <data name="ConfigWindowChannelsNnAllowFields" xml:space="preserve">
-    <value>允许场</value>
+    <value>允许场信息（Fields）</value>
   </data>
   <data name="ConfigWindowChannelsNnName" xml:space="preserve">
     <value>名称</value>
@@ -597,7 +597,7 @@
     <value>预定义客户端</value>
   </data>
   <data name="ConfigWindowOptionsTabPassGb" xml:space="preserve">
-    <value>清除密码短语</value>
+    <value>密码（明文）</value>
   </data>
   <data name="ConfigWindowOptionsTabPassValue" xml:space="preserve">
     <value>值</value>
@@ -636,7 +636,7 @@
     <value>编辑服务器配置</value>
   </data>
   <data name="ConfigWindowVideoModesCadence" xml:space="preserve">
-    <value>节奏</value>
+    <value>Cadence</value>
   </data>
   <data name="ConfigWindowVideoModesCustomVideoModeGb" xml:space="preserve">
     <value>自定义视频模式</value>
@@ -1034,16 +1034,16 @@
     <value>BT.2020</value>
   </data>
   <data name="ConfigWindowChannelsDlHdrMaxCll" xml:space="preserve">
-    <value>最大内容亮度</value>
+    <value>最大内容亮度（MaxCLL）</value>
   </data>
   <data name="ConfigWindowChannelsDlHdrMaxFall" xml:space="preserve">
-    <value>最大帧平均亮度</value>
+    <value>最大帧平均亮度（MaxFALL）</value>
   </data>
   <data name="ConfigWindowChannelsDlHdrMaxDml" xml:space="preserve">
-    <value>最大显示亮度</value>
+    <value>最大显示亮度（MaxDML）</value>
   </data>
   <data name="ConfigWindowChannelsDlHdrMinDml" xml:space="preserve">
-    <value>最小显示亮度</value>
+    <value>最小显示亮度（MinDML）</value>
   </data>
   <data name="ConfigWindowChannelsDlHdrMetadata" xml:space="preserve">
     <value>HDR 元数据</value>

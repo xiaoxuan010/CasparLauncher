@@ -888,6 +888,9 @@ The file will be deleted permanently.</value>
   <data name="LanguagesEspañol" xml:space="preserve">
     <value>Español</value>
   </data>
+  <data name="Languages简体中文" xml:space="preserve">
+    <value>简体中文</value>
+  </data>
   <data name="LogLevel_Debug" xml:space="preserve">
     <value>Debug</value>
   </data>
