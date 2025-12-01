@@ -1,0 +1,1060 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutWindowNotice" xml:space="preserve">
+    <value>本程序为自由软件：您可以依据自由软件基金会发布的 GNU 通用公共许可证第3版或（根据您的选择）更新版本的条款，对本程序进行再发布和/或修改。
+
+本程序的发布是希望它有用，但不提供任何担保；甚至不包括对适销性或特定用途适用性的暗示担保。详情请参阅 GNU 通用公共许可证。
+
+您应该已经收到了一份 GNU 通用公共许可证的副本。如果没有，请参阅
+&lt;https://www.gnu.org/licenses/&gt;。</value>
+  </data>
+  <data name="AboutWindowTagline" xml:space="preserve">
+    <value>CasparCG 服务器前端应用程序</value>
+  </data>
+  <data name="AboutWindowTitle" xml:space="preserve">
+    <value>关于</value>
+  </data>
+  <data name="AboutWindowVersion" xml:space="preserve">
+    <value>版本 {0}</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>服务器启动器</value>
+  </data>
+  <data name="ArtnetConsumer" xml:space="preserve">
+    <value>ArtNet 输出</value>
+  </data>
+  <data name="ArtnetFixtureType_DIMMER" xml:space="preserve">
+    <value>调光器</value>
+  </data>
+  <data name="ArtnetFixtureType_RGB" xml:space="preserve">
+    <value>RGB</value>
+  </data>
+  <data name="ArtnetFixtureType_RGBW" xml:space="preserve">
+    <value>RGBW</value>
+  </data>
+  <data name="BluefishConsumer" xml:space="preserve">
+    <value>Bluefish 输出</value>
+  </data>
+  <data name="BluefishKeyerAudio_Input" xml:space="preserve">
+    <value>SDI 视频输入</value>
+  </data>
+  <data name="BluefishKeyerAudio_Output" xml:space="preserve">
+    <value>视频输出通道</value>
+  </data>
+  <data name="BluefishKeyer_Disabled" xml:space="preserve">
+    <value>禁用</value>
+  </data>
+  <data name="BluefishKeyer_External" xml:space="preserve">
+    <value>外部</value>
+  </data>
+  <data name="BluefishKeyer_Internal" xml:space="preserve">
+    <value>内部</value>
+  </data>
+  <data name="BluefishUhdMode_Auto" xml:space="preserve">
+    <value>自动</value>
+  </data>
+  <data name="BluefishUhdMode_DisableBVC" xml:space="preserve">
+    <value>禁用 BVC-Multi_Link</value>
+  </data>
+  <data name="BluefishUhdMode_Force2SI" xml:space="preserve">
+    <value>强制 2SI 输出</value>
+  </data>
+  <data name="BluefishUhdMode_ForceSQ" xml:space="preserve">
+    <value>强制 SQ 输出</value>
+  </data>
+  <data name="BrowseForFileButton" xml:space="preserve">
+    <value>浏览...</value>
+  </data>
+  <data name="BrowseForPathButton" xml:space="preserve">
+    <value>选择文件夹...</value>
+  </data>
+  <data name="BrowseForPathDialogCaption" xml:space="preserve">
+    <value>选择 '{0}' 文件夹的路径</value>
+  </data>
+  <data name="ClosePromptCaption" xml:space="preserve">
+    <value>关闭应用程序</value>
+  </data>
+  <data name="ClosePromptMessage" xml:space="preserve">
+    <value>此应用程序负责保持所有服务器组件运行。
+关闭它将终止所有服务器服务。
+是否要继续？</value>
+  </data>
+  <data name="ConfigBufferLines" xml:space="preserve">
+    <value>控制台缓冲区</value>
+  </data>
+  <data name="MenuBarViewDarkMode" xml:space="preserve">
+    <value>深色模式</value>
+  </data>
+  <data name="ConfigFileDialogFilterDescription" xml:space="preserve">
+    <value>配置文件</value>
+  </data>
+  <data name="ConfigFileText" xml:space="preserve">
+    <value>配置文件</value>
+  </data>
+  <data name="MenuBarHelpAbout" xml:space="preserve">
+    <value>关于...</value>
+  </data>
+  <data name="MenuBarHelpCasparCGProject" xml:space="preserve">
+    <value>CasparCG 项目</value>
+  </data>
+  <data name="MenuBarHelpMenuHeader" xml:space="preserve">
+    <value>帮助</value>
+  </data>
+  <data name="MenuBarHelpReportIssue" xml:space="preserve">
+    <value>报告问题</value>
+  </data>
+  <data name="MenuBarOptionsNotifications" xml:space="preserve">
+    <value>通知</value>
+  </data>
+  <data name="MenuBarOptionsNotificationsErrors" xml:space="preserve">
+    <value>进程错误</value>
+  </data>
+  <data name="MenuBarOptionsNotificationsStarted" xml:space="preserve">
+    <value>进程已启动</value>
+  </data>
+  <data name="MenuBarOptionsNotificationsStopped" xml:space="preserve">
+    <value>进程已停止</value>
+  </data>
+  <data name="MenuBarOptionsOpenAtLogin" xml:space="preserve">
+    <value>登录时启动</value>
+  </data>
+  <data name="ConfigSupressEmptyLines" xml:space="preserve">
+    <value>忽略控制台空行</value>
+  </data>
+  <data name="ConfigTabAboutGb" xml:space="preserve">
+    <value>关于</value>
+  </data>
+  <data name="ConfigTabAboutProjectDescription" xml:space="preserve">
+    <value>CasparCG Server 是一款适用于 Windows 和 Linux 的软件，用于将专业图形、音频和视频作为基于图层的实时合成器输出到多个输出设备。自 2006 年以来，它一直在 24/7 广播生产中使用，而且最棒的是，它是免费的。被欧洲大多数广播公司使用。
+更多信息请访问：</value>
+  </data>
+  <data name="ConfigTabAboutProjectName" xml:space="preserve">
+    <value>CasparCG 项目</value>
+  </data>
+  <data name="ConfigTabEditConfigFilesDesc" xml:space="preserve">
+    <value>要编辑 'casparcg.config' 以外的文件，请在点击"编辑文件"按钮时按住 Shift 键</value>
+  </data>
+  <data name="ConfigTabExecGbHeader" xml:space="preserve">
+    <value>可执行文件</value>
+  </data>
+  <data name="MenuBarOptionsLanguage" xml:space="preserve">
+    <value>语言</value>
+  </data>
+  <data name="ConfigTabOptionsCbHead" xml:space="preserve">
+    <value>选项</value>
+  </data>
+  <data name="ConfigTabServerConfigHeader" xml:space="preserve">
+    <value>服务器配置</value>
+  </data>
+  <data name="MenuBarViewCropLines" xml:space="preserve">
+    <value>裁剪控制台行</value>
+  </data>
+  <data name="MenuBarViewMenuHeader" xml:space="preserve">
+    <value>视图</value>
+  </data>
+  <data name="MenuBarViewStylizeConsole" xml:space="preserve">
+    <value>美化控制台</value>
+  </data>
+  <data name="ConfigWindowChannelsAnAddFixture" xml:space="preserve">
+    <value>添加设备</value>
+  </data>
+  <data name="ConfigWindowChannelsAnFixtureChannels" xml:space="preserve">
+    <value>通道</value>
+  </data>
+  <data name="ConfigWindowChannelsAnFixtureCount" xml:space="preserve">
+    <value>设备数量</value>
+  </data>
+  <data name="ConfigWindowChannelsAnFixtureHeight" xml:space="preserve">
+    <value>高度</value>
+  </data>
+  <data name="ConfigWindowChannelsAnFixtureRotation" xml:space="preserve">
+    <value>旋转</value>
+  </data>
+  <data name="ConfigWindowChannelsAnFixtures" xml:space="preserve">
+    <value>设备</value>
+  </data>
+  <data name="ConfigWindowChannelsAnFixtureStart" xml:space="preserve">
+    <value>起始地址</value>
+  </data>
+  <data name="ConfigWindowChannelsAnFixtureType" xml:space="preserve">
+    <value>类型</value>
+  </data>
+  <data name="ConfigWindowChannelsAnFixtureWidth" xml:space="preserve">
+    <value>宽度</value>
+  </data>
+  <data name="ConfigWindowChannelsAnFixtureX" xml:space="preserve">
+    <value>X 位置</value>
+  </data>
+  <data name="ConfigWindowChannelsAnFixtureY" xml:space="preserve">
+    <value>Y 位置</value>
+  </data>
+  <data name="ConfigWindowChannelsAnHost" xml:space="preserve">
+    <value>主机</value>
+  </data>
+  <data name="ConfigWindowChannelsAnPort" xml:space="preserve">
+    <value>端口</value>
+  </data>
+  <data name="ConfigWindowChannelsAnRate" xml:space="preserve">
+    <value>刷新率</value>
+  </data>
+  <data name="ConfigWindowChannelsAnUniverse" xml:space="preserve">
+    <value>宇宙</value>
+  </data>
+  <data name="ConfigWindowChannelsBfDevice" xml:space="preserve">
+    <value>设备</value>
+  </data>
+  <data name="ConfigWindowChannelsBfEmbedAudio" xml:space="preserve">
+    <value>嵌入音频</value>
+  </data>
+  <data name="ConfigWindowChannelsBfKeyer" xml:space="preserve">
+    <value>键控器</value>
+  </data>
+  <data name="ConfigWindowChannelsBfKeyerAudio" xml:space="preserve">
+    <value>内部键控器音频源</value>
+  </data>
+  <data name="ConfigWindowChannelsBfSdiStream" xml:space="preserve">
+    <value>SDI 流</value>
+  </data>
+  <data name="ConfigWindowChannelsBfUhdMode" xml:space="preserve">
+    <value>UHD 模式</value>
+  </data>
+  <data name="ConfigWindowChannelsBfWatchdog" xml:space="preserve">
+    <value>看门狗</value>
+  </data>
+  <data name="ConfigWindowChannelsChannelConfigGbHeader" xml:space="preserve">
+    <value>通道设置</value>
+  </data>
+  <data name="ConfigWindowChannelsChannelListItemDisplay" xml:space="preserve">
+    <value>通道 {0}</value>
+  </data>
+  <data name="ConfigWindowChannelsChannelProducerLayer" xml:space="preserve">
+    <value>图层</value>
+  </data>
+  <data name="ConfigWindowChannelsChannelProducerMedia" xml:space="preserve">
+    <value>媒体</value>
+  </data>
+  <data name="ConfigWindowChannelsChannelProducers" xml:space="preserve">
+    <value>生产者</value>
+  </data>
+  <data name="ConfigWindowChannelsChannels" xml:space="preserve">
+    <value>通道</value>
+  </data>
+  <data name="ConfigWindowChannelsChannelVideoMode" xml:space="preserve">
+    <value>视频模式</value>
+  </data>
+  <data name="ConfigWindowChannelsConsumerChannelVideoMode" xml:space="preserve">
+    <value>通道视频模式</value>
+  </data>
+  <data name="ConfigWindowChannelsConsumerConfigGbHeader" xml:space="preserve">
+    <value>消费者设置</value>
+  </data>
+  <data name="ConfigWindowChannelsConsumers" xml:space="preserve">
+    <value>消费者</value>
+  </data>
+  <data name="ConfigWindowChannelsConsumerSubregionDestX" xml:space="preserve">
+    <value>目标 X</value>
+  </data>
+  <data name="ConfigWindowChannelsConsumerSubregionDestY" xml:space="preserve">
+    <value>目标 Y</value>
+  </data>
+  <data name="ConfigWindowChannelsConsumerSubregionEnable" xml:space="preserve">
+    <value>启用子区域</value>
+  </data>
+  <data name="ConfigWindowChannelsConsumerSubregionHeight" xml:space="preserve">
+    <value>高度</value>
+  </data>
+  <data name="ConfigWindowChannelsConsumerSubregionSrcX" xml:space="preserve">
+    <value>源 X</value>
+  </data>
+  <data name="ConfigWindowChannelsConsumerSubregionSrcY" xml:space="preserve">
+    <value>源 Y</value>
+  </data>
+  <data name="ConfigWindowChannelsConsumerSubregionWidth" xml:space="preserve">
+    <value>宽度</value>
+  </data>
+  <data name="ConfigWindowChannelsConsumerVideoMode" xml:space="preserve">
+    <value>视频模式</value>
+  </data>
+  <data name="ConfigWindowChannelsDlAddPort" xml:space="preserve">
+    <value>添加端口</value>
+  </data>
+  <data name="ConfigWindowChannelsDlBuffer" xml:space="preserve">
+    <value>缓冲深度</value>
+  </data>
+  <data name="ConfigWindowChannelsDlDevice" xml:space="preserve">
+    <value>设备</value>
+  </data>
+  <data name="ConfigWindowChannelsDlEmbedAudio" xml:space="preserve">
+    <value>嵌入音频</value>
+  </data>
+  <data name="ConfigWindowChannelsDlKeyDevice" xml:space="preserve">
+    <value>键设备</value>
+  </data>
+  <data name="ConfigWindowChannelsDlKeyer" xml:space="preserve">
+    <value>键控器</value>
+  </data>
+  <data name="ConfigWindowChannelsDlKeyOnly" xml:space="preserve">
+    <value>仅键</value>
+  </data>
+  <data name="ConfigWindowChannelsDlLatency" xml:space="preserve">
+    <value>延迟</value>
+  </data>
+  <data name="ConfigWindowChannelsDlPortDevice" xml:space="preserve">
+    <value>设备</value>
+  </data>
+  <data name="ConfigWindowChannelsDlPortKeyOnly" xml:space="preserve">
+    <value>仅键</value>
+  </data>
+  <data name="ConfigWindowChannelsDlPorts" xml:space="preserve">
+    <value>附加同步端口</value>
+  </data>
+  <data name="ConfigWindowChannelsDlWaitForReference" xml:space="preserve">
+    <value>等待参考</value>
+  </data>
+  <data name="ConfigWindowChannelsDlWaitForReferenceDuration" xml:space="preserve">
+    <value>等待参考时长</value>
+  </data>
+  <data name="ConfigWindowChannelsDlWaitForReferenceDurationDetail" xml:space="preserve">
+    <value>（时间以秒为单位）</value>
+  </data>
+  <data name="ConfigWindowChannelsFfArgs" xml:space="preserve">
+    <value>参数</value>
+  </data>
+  <data name="ConfigWindowChannelsFfPath" xml:space="preserve">
+    <value>路径</value>
+  </data>
+  <data name="ConfigWindowChannelsHeader" xml:space="preserve">
+    <value>通道</value>
+  </data>
+  <data name="ConfigWindowChannelsNiNoOptions" xml:space="preserve">
+    <value>此消费者没有设置选项</value>
+  </data>
+  <data name="ConfigWindowChannelsNnAllowFields" xml:space="preserve">
+    <value>允许场</value>
+  </data>
+  <data name="ConfigWindowChannelsNnName" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="ConfigWindowChannelsSaChannelLayout" xml:space="preserve">
+    <value>通道布局</value>
+  </data>
+  <data name="ConfigWindowChannelsSaLatency" xml:space="preserve">
+    <value>延迟</value>
+  </data>
+  <data name="ConfigWindowChannelsScAlwaysOn" xml:space="preserve">
+    <value>始终置顶</value>
+  </data>
+  <data name="ConfigWindowChannelsScAspect" xml:space="preserve">
+    <value>宽高比</value>
+  </data>
+  <data name="ConfigWindowChannelsScBorderless" xml:space="preserve">
+    <value>无边框</value>
+  </data>
+  <data name="ConfigWindowChannelsScColourSpace" xml:space="preserve">
+    <value>色彩空间</value>
+  </data>
+  <data name="ConfigWindowChannelsScDevice" xml:space="preserve">
+    <value>设备</value>
+  </data>
+  <data name="ConfigWindowChannelsScHeight" xml:space="preserve">
+    <value>高度</value>
+  </data>
+  <data name="ConfigWindowChannelsScInteractive" xml:space="preserve">
+    <value>交互式</value>
+  </data>
+  <data name="ConfigWindowChannelsScKeyOnly" xml:space="preserve">
+    <value>仅键</value>
+  </data>
+  <data name="ConfigWindowChannelsScName" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="ConfigWindowChannelsScSbsKey" xml:space="preserve">
+    <value>并排键</value>
+  </data>
+  <data name="ConfigWindowChannelsScStretch" xml:space="preserve">
+    <value>拉伸</value>
+  </data>
+  <data name="ConfigWindowChannelsScVsync" xml:space="preserve">
+    <value>垂直同步</value>
+  </data>
+  <data name="ConfigWindowChannelsScWidth" xml:space="preserve">
+    <value>宽度</value>
+  </data>
+  <data name="ConfigWindowChannelsScWindowed" xml:space="preserve">
+    <value>窗口化</value>
+  </data>
+  <data name="ConfigWindowChannelsScX" xml:space="preserve">
+    <value>X 位置</value>
+  </data>
+  <data name="ConfigWindowChannelsScY" xml:space="preserve">
+    <value>Y 位置</value>
+  </data>
+  <data name="ConfigWindowOptionsTabAmcpGb" xml:space="preserve">
+    <value>AMCP</value>
+  </data>
+  <data name="ConfigWindowOptionsTabAmcpMediaHost" xml:space="preserve">
+    <value>媒体扫描器主机</value>
+  </data>
+  <data name="ConfigWindowOptionsTabAmcpMediaPort" xml:space="preserve">
+    <value>媒体扫描器端口</value>
+  </data>
+  <data name="ConfigWindowOptionsTabAmcpPort" xml:space="preserve">
+    <value>端口</value>
+  </data>
+  <data name="ConfigWindowOptionsTabAudioDefaultDevice" xml:space="preserve">
+    <value>默认输出设备</value>
+  </data>
+  <data name="ConfigWindowOptionsTabAudioGb" xml:space="preserve">
+    <value>音频</value>
+  </data>
+  <data name="ConfigWindowOptionsTabFfmpegDeinterlace" xml:space="preserve">
+    <value>反交错</value>
+  </data>
+  <data name="ConfigWindowOptionsTabFfmpegGb" xml:space="preserve">
+    <value>FFmpeg</value>
+  </data>
+  <data name="ConfigWindowOptionsTabFfmpegThreads" xml:space="preserve">
+    <value>CPU 线程数</value>
+  </data>
+  <data name="ConfigWindowOptionsTabFlashBuffer" xml:space="preserve">
+    <value>缓冲深度</value>
+  </data>
+  <data name="ConfigWindowOptionsTabFlashEnableProducer" xml:space="preserve">
+    <value>启用生产者</value>
+  </data>
+  <data name="ConfigWindowOptionsTabFlashGb" xml:space="preserve">
+    <value>Flash</value>
+  </data>
+  <data name="ConfigWindowOptionsTabHeader" xml:space="preserve">
+    <value>服务器选项</value>
+  </data>
+  <data name="ConfigWindowOptionsTabHtmlAngleBackend" xml:space="preserve">
+    <value>ANGLE 图形后端</value>
+  </data>
+  <data name="ConfigWindowOptionsTabHtmlDebugPort" xml:space="preserve">
+    <value>调试端口</value>
+  </data>
+  <data name="ConfigWindowOptionsTabHtmlEnableGpu" xml:space="preserve">
+    <value>启用 GPU</value>
+  </data>
+  <data name="ConfigWindowOptionsTabHtmlGb" xml:space="preserve">
+    <value>HTML</value>
+  </data>
+  <data name="ConfigWindowOptionsTabLogDisableColumnAlignment" xml:space="preserve">
+    <value>禁用列对齐</value>
+  </data>
+  <data name="ConfigWindowOptionsTabLogDisableColumnAlignmentNotice" xml:space="preserve">
+    <value>此选项仅为兼容性目的而支持。它不会影响此启动器控制台的行为。</value>
+  </data>
+  <data name="ConfigWindowOptionsTabLogGb" xml:space="preserve">
+    <value>日志</value>
+  </data>
+  <data name="ConfigWindowOptionsTabLogLogLevel" xml:space="preserve">
+    <value>级别</value>
+  </data>
+  <data name="ConfigWindowOptionsTabLogLogToFile" xml:space="preserve">
+    <value>启用文件日志记录</value>
+  </data>
+  <data name="ConfigWindowOptionsTabNdiAutoload" xml:space="preserve">
+    <value>自动加载</value>
+  </data>
+  <data name="ConfigWindowOptionsTabNdiGb" xml:space="preserve">
+    <value>NDI</value>
+  </data>
+  <data name="ConfigWindowOptionsTabOscAmcpDisable" xml:space="preserve">
+    <value>禁用发送到 AMCP 客户端</value>
+  </data>
+  <data name="ConfigWindowOptionsTabOscDefaultPort" xml:space="preserve">
+    <value>默认端口</value>
+  </data>
+  <data name="ConfigWindowOptionsTabOscGb" xml:space="preserve">
+    <value>OSC</value>
+  </data>
+  <data name="ConfigWindowOptionsTabOscPredClientAddress" xml:space="preserve">
+    <value>地址</value>
+  </data>
+  <data name="ConfigWindowOptionsTabOscPredClientPort" xml:space="preserve">
+    <value>端口</value>
+  </data>
+  <data name="ConfigWindowOptionsTabOscPredefinedClients" xml:space="preserve">
+    <value>预定义客户端</value>
+  </data>
+  <data name="ConfigWindowOptionsTabPassGb" xml:space="preserve">
+    <value>清除密码短语</value>
+  </data>
+  <data name="ConfigWindowOptionsTabPassValue" xml:space="preserve">
+    <value>值</value>
+  </data>
+  <data name="ConfigWindowOptionsTabPathsDataPath" xml:space="preserve">
+    <value>数据路径</value>
+  </data>
+  <data name="ConfigWindowOptionsTabPathsFontPath" xml:space="preserve">
+    <value>字体路径</value>
+  </data>
+  <data name="ConfigWindowOptionsTabPathsGb" xml:space="preserve">
+    <value>路径</value>
+  </data>
+  <data name="ConfigWindowOptionsTabPathsLogPath" xml:space="preserve">
+    <value>日志路径</value>
+  </data>
+  <data name="ConfigWindowOptionsTabPathsMediaPath" xml:space="preserve">
+    <value>媒体路径</value>
+  </data>
+  <data name="ConfigWindowOptionsTabPathsTemplatePath" xml:space="preserve">
+    <value>模板路径</value>
+  </data>
+  <data name="ConfigWindowSaveButton" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="ConfigWindowStatusMessageSaveError" xml:space="preserve">
+    <value>发生未知错误</value>
+  </data>
+  <data name="ConfigWindowStatusMessageSaveIOError" xml:space="preserve">
+    <value>写入文件时出错</value>
+  </data>
+  <data name="ConfigWindowStatusMessageSaveSuccess" xml:space="preserve">
+    <value>文件已成功保存</value>
+  </data>
+  <data name="ConfigWindowTitle" xml:space="preserve">
+    <value>编辑服务器配置</value>
+  </data>
+  <data name="ConfigWindowVideoModesCadence" xml:space="preserve">
+    <value>节奏</value>
+  </data>
+  <data name="ConfigWindowVideoModesCustomVideoModeGb" xml:space="preserve">
+    <value>自定义视频模式</value>
+  </data>
+  <data name="ConfigWindowVideoModesCustomVideoModes" xml:space="preserve">
+    <value>自定义视频模式</value>
+  </data>
+  <data name="ConfigWindowVideoModesDuration" xml:space="preserve">
+    <value>时长</value>
+  </data>
+  <data name="ConfigWindowVideoModesHeight" xml:space="preserve">
+    <value>高度</value>
+  </data>
+  <data name="ConfigWindowVideoModesId" xml:space="preserve">
+    <value>视频模式 ID</value>
+  </data>
+  <data name="ConfigWindowVideoModesNewModeId" xml:space="preserve">
+    <value>新视频模式</value>
+  </data>
+  <data name="ConfigWindowVideoModesTab" xml:space="preserve">
+    <value>视频模式</value>
+  </data>
+  <data name="ConfigWindowVideoModesTimeScale" xml:space="preserve">
+    <value>时间比例</value>
+  </data>
+  <data name="ConfigWindowVideoModesWidth" xml:space="preserve">
+    <value>宽度</value>
+  </data>
+  <data name="ContextMenuExecConfigItemHeader" xml:space="preserve">
+    <value>配置</value>
+  </data>
+  <data name="ContextMenuExecDiagItemHeader" xml:space="preserve">
+    <value>打开诊断窗口</value>
+  </data>
+  <data name="ContextMenuExecRestartItemHeader" xml:space="preserve">
+    <value>重启</value>
+  </data>
+  <data name="ContextMenuExecStartItemHeader" xml:space="preserve">
+    <value>启动</value>
+  </data>
+  <data name="ContextMenuExecStopItemHeader" xml:space="preserve">
+    <value>停止</value>
+  </data>
+  <data name="ContextMenuExitItemHeader" xml:space="preserve">
+    <value>退出</value>
+  </data>
+  <data name="ContextMenuRebuildMediaDbItemHeader" xml:space="preserve">
+    <value>重建媒体数据库</value>
+  </data>
+  <data name="ContextMenuRestartAllHeader" xml:space="preserve">
+    <value>全部重启</value>
+  </data>
+  <data name="ContextMenuStartAllHeader" xml:space="preserve">
+    <value>全部启动</value>
+  </data>
+  <data name="ContextMenuStopAllHeader" xml:space="preserve">
+    <value>全部停止</value>
+  </data>
+  <data name="CreateConfigFileErrorCaption" xml:space="preserve">
+    <value>错误</value>
+  </data>
+  <data name="CreateConfigFileIOError" xml:space="preserve">
+    <value>创建配置文件时出错。
+无法将文件写入磁盘。</value>
+  </data>
+  <data name="DecklinkConsumer" xml:space="preserve">
+    <value>Decklink 输出</value>
+  </data>
+  <data name="DecklinkKeyer_Default" xml:space="preserve">
+    <value>默认</value>
+  </data>
+  <data name="DecklinkKeyer_External" xml:space="preserve">
+    <value>外部</value>
+  </data>
+  <data name="DecklinkKeyer_ExternalSeparateDevice" xml:space="preserve">
+    <value>外部（独立设备）</value>
+  </data>
+  <data name="DecklinkKeyer_Internal" xml:space="preserve">
+    <value>内部</value>
+  </data>
+  <data name="DecklinkLatency_Default" xml:space="preserve">
+    <value>默认</value>
+  </data>
+  <data name="DecklinkLatency_Low" xml:space="preserve">
+    <value>低</value>
+  </data>
+  <data name="DecklinkLatency_Normal" xml:space="preserve">
+    <value>正常</value>
+  </data>
+  <data name="DecklinkWaitForReference_Auto" xml:space="preserve">
+    <value>自动</value>
+  </data>
+  <data name="DecklinkWaitForReference_Disable" xml:space="preserve">
+    <value>禁用</value>
+  </data>
+  <data name="DecklinkWaitForReference_Enable" xml:space="preserve">
+    <value>启用</value>
+  </data>
+  <data name="DeleteConfigFileError" xml:space="preserve">
+    <value>删除配置文件时出错。
+未知错误。</value>
+  </data>
+  <data name="DeleteConfigFileErrorCaption" xml:space="preserve">
+    <value>错误</value>
+  </data>
+  <data name="DeleteConfigFileIOError" xml:space="preserve">
+    <value>删除配置文件时出错。
+写入错误。</value>
+  </data>
+  <data name="DeleteExecutablePromptCaption" xml:space="preserve">
+    <value>删除可执行文件</value>
+  </data>
+  <data name="DeleteExecutablePromptMessage" xml:space="preserve">
+    <value>您确定要删除此可执行文件吗？（此操作无法撤销）</value>
+  </data>
+  <data name="ExecutableConfigWindowArgs" xml:space="preserve">
+    <value>参数</value>
+  </data>
+  <data name="ExecutableConfigWindowAuto" xml:space="preserve">
+    <value>自动启动</value>
+  </data>
+  <data name="ExecutableConfigWindowAutoDesc" xml:space="preserve">
+    <value>启动时自动运行</value>
+  </data>
+  <data name="ExecutableConfigWindowCommands" xml:space="preserve">
+    <value>启动命令</value>
+  </data>
+  <data name="ExecutableConfigWindowCommandsDelay" xml:space="preserve">
+    <value>命令间延迟</value>
+  </data>
+  <data name="ExecutableConfigWindowCommandsDelayDesc" xml:space="preserve">
+    <value>每个启动命令之间的等待时间（毫秒）</value>
+  </data>
+  <data name="ExecutableConfigWindowCommandsDgHeader" xml:space="preserve">
+    <value>命令</value>
+  </data>
+  <data name="ExecutableConfigWindowCommandsEnabled" xml:space="preserve">
+    <value>启用命令</value>
+  </data>
+  <data name="ExecutableConfigWindowCommandsEnabledDesc" xml:space="preserve">
+    <value>启用向控制台写入命令</value>
+  </data>
+  <data name="ExecutableConfigWindowCommandsExport" xml:space="preserve">
+    <value>导出...</value>
+  </data>
+  <data name="ExecutableConfigWindowCommandsImport" xml:space="preserve">
+    <value>导入...</value>
+  </data>
+  <data name="ExecutableConfigWindowConfigFile" xml:space="preserve">
+    <value>配置文件</value>
+  </data>
+  <data name="ExecutableConfigWindowDelay" xml:space="preserve">
+    <value>启动延迟</value>
+  </data>
+  <data name="ExecutableConfigWindowDelayDesc" xml:space="preserve">
+    <value>启动前的等待时间（毫秒）</value>
+  </data>
+  <data name="ExecutableConfigWindowDeleteButton" xml:space="preserve">
+    <value>删除可执行文件</value>
+  </data>
+  <data name="ExecutableConfigWindowDeleteFilePromptCaption" xml:space="preserve">
+    <value>删除配置文件</value>
+  </data>
+  <data name="ExecutableConfigWindowDeleteFilePromptMessage" xml:space="preserve">
+    <value>您确定要删除配置文件 '{0}' 吗？
+该文件将被永久删除。</value>
+  </data>
+  <data name="ExecutableConfigWindowGbOptionsHeader" xml:space="preserve">
+    <value>可执行文件选项</value>
+  </data>
+  <data name="ExecutableConfigWindowKillOnlyCurrentPathEnabled" xml:space="preserve">
+    <value>仅终止当前路径</value>
+  </data>
+  <data name="ExecutableConfigWindowKillOnlyCurrentPathEnabledDesc" xml:space="preserve">
+    <value>如果启用，仅终止在同一路径运行的进程。否则，任何同名进程都将被终止。</value>
+  </data>
+  <data name="ExecutableConfigWindowMultipleInstancesEnabled" xml:space="preserve">
+    <value>允许多实例</value>
+  </data>
+  <data name="ExecutableConfigWindowMultipleInstancesEnabledDesc" xml:space="preserve">
+    <value>允许运行多个同名进程（CasparCG.exe 允许在参数字段中指定不同的配置文件路径）</value>
+  </data>
+  <data name="ExecutableConfigWindowName" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="ExecutableConfigWindowPath" xml:space="preserve">
+    <value>可执行文件路径</value>
+  </data>
+  <data name="ExecutableConfigWindowTitle" xml:space="preserve">
+    <value>可执行文件配置</value>
+  </data>
+  <data name="ExecutableErrorMessage" xml:space="preserve">
+    <value>启动进程时出错</value>
+  </data>
+  <data name="ExecutableNotFoundWarningCaption" xml:space="preserve">
+    <value>路径错误</value>
+  </data>
+  <data name="ExecutableNotFoundWarningMessage" xml:space="preserve">
+    <value>请检查可执行文件路径</value>
+  </data>
+  <data name="ExecutableStartedMessage" xml:space="preserve">
+    <value>进程已成功启动</value>
+  </data>
+  <data name="ExecutableStoppedMessage" xml:space="preserve">
+    <value>进程已停止</value>
+  </data>
+  <data name="ExecutableTabNotFoundCaption" xml:space="preserve">
+    <value>可执行文件路径错误</value>
+  </data>
+  <data name="ExecutableTabNotFoundMessage" xml:space="preserve">
+    <value>请在可执行文件配置窗口中设置正确的路径</value>
+  </data>
+  <data name="ExecutableTabOpenConfigButton" xml:space="preserve">
+    <value>打开配置</value>
+  </data>
+  <data name="FFConsumer" xml:space="preserve">
+    <value>FFmpeg 输出</value>
+  </data>
+  <data name="FfmpegDeinterlace_All" xml:space="preserve">
+    <value>全部</value>
+  </data>
+  <data name="FfmpegDeinterlace_Interlaced" xml:space="preserve">
+    <value>交错</value>
+  </data>
+  <data name="FfmpegDeinterlace_None" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="FileDialogFilterDescription" xml:space="preserve">
+    <value>可执行文件</value>
+  </data>
+  <data name="HtmlAngleGraphicsBackend_D3D11" xml:space="preserve">
+    <value>D3D11</value>
+  </data>
+  <data name="HtmlAngleGraphicsBackend_D3D9" xml:space="preserve">
+    <value>D3D9</value>
+  </data>
+  <data name="HtmlAngleGraphicsBackend_OpenGL" xml:space="preserve">
+    <value>OpenGL</value>
+  </data>
+  <data name="IvgaConsumer" xml:space="preserve">
+    <value>iVGA 输出</value>
+  </data>
+  <data name="LanguagesDefault" xml:space="preserve">
+    <value>默认</value>
+  </data>
+  <data name="LanguagesEnglish" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="LanguagesEspañol" xml:space="preserve">
+    <value>Español</value>
+  </data>
+  <data name="Languages简体中文" xml:space="preserve">
+    <value>简体中文</value>
+  </data>
+  <data name="LogLevel_Debug" xml:space="preserve">
+    <value>调试</value>
+  </data>
+  <data name="LogLevel_Error" xml:space="preserve">
+    <value>错误</value>
+  </data>
+  <data name="LogLevel_Fatal" xml:space="preserve">
+    <value>致命</value>
+  </data>
+  <data name="LogLevel_Info" xml:space="preserve">
+    <value>信息</value>
+  </data>
+  <data name="LogLevel_Trace" xml:space="preserve">
+    <value>跟踪</value>
+  </data>
+  <data name="LogLevel_Warning" xml:space="preserve">
+    <value>警告</value>
+  </data>
+  <data name="MenuBarOptionsMenuHeader" xml:space="preserve">
+    <value>选项</value>
+  </data>
+  <data name="NdiConsumer" xml:space="preserve">
+    <value>NDI 输出</value>
+  </data>
+  <data name="NewExecutableName" xml:space="preserve">
+    <value>新可执行文件</value>
+  </data>
+  <data name="NotRunning" xml:space="preserve">
+    <value>未运行</value>
+  </data>
+  <data name="OpenConfigEditorEditButtonText" xml:space="preserve">
+    <value>编辑文件</value>
+  </data>
+  <data name="OpenConfigEditorErrorCaption" xml:space="preserve">
+    <value>错误</value>
+  </data>
+  <data name="OpenConfigEditorFileError" xml:space="preserve">
+    <value>配置文件格式错误</value>
+  </data>
+  <data name="OpenConfigEditorIOError" xml:space="preserve">
+    <value>打开配置文件时出错</value>
+  </data>
+  <data name="OpenConfigEditorNewButtonText" xml:space="preserve">
+    <value>新建文件</value>
+  </data>
+  <data name="Running" xml:space="preserve">
+    <value>运行中</value>
+  </data>
+  <data name="ScreenAspectRatio_16:9" xml:space="preserve">
+    <value>16:9</value>
+  </data>
+  <data name="ScreenAspectRatio_4:3" xml:space="preserve">
+    <value>4:3</value>
+  </data>
+  <data name="ScreenAspectRatio_Default" xml:space="preserve">
+    <value>默认</value>
+  </data>
+  <data name="ScreenColourSpace_DataVideo_Full" xml:space="preserve">
+    <value>DataVideo（完整）</value>
+  </data>
+  <data name="ScreenColourSpace_DataVideo_Limited" xml:space="preserve">
+    <value>DataVideo（受限）</value>
+  </data>
+  <data name="ScreenColourSpace_RGB" xml:space="preserve">
+    <value>RGB</value>
+  </data>
+  <data name="ScreenConsumer" xml:space="preserve">
+    <value>屏幕输出</value>
+  </data>
+  <data name="ScreenStretch_Fill" xml:space="preserve">
+    <value>填充</value>
+  </data>
+  <data name="ScreenStretch_None" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="ScreenStretch_Uniform" xml:space="preserve">
+    <value>均匀</value>
+  </data>
+  <data name="ScreenStretch_UniformToFill" xml:space="preserve">
+    <value>均匀填充</value>
+  </data>
+  <data name="StatusTabHeader" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="SystemAudioChannelLayout_Matrix" xml:space="preserve">
+    <value>矩阵</value>
+  </data>
+  <data name="SystemAudioChannelLayout_Mono" xml:space="preserve">
+    <value>单声道</value>
+  </data>
+  <data name="SystemAudioChannelLayout_Stereo" xml:space="preserve">
+    <value>立体声</value>
+  </data>
+  <data name="SystemAudioConsumer" xml:space="preserve">
+    <value>系统音频输出</value>
+  </data>
+  <data name="UptimeDaysFormat" xml:space="preserve">
+    <value>{0:%d} 天，</value>
+    <comment>注意末尾的空格</comment>
+  </data>
+  <data name="UptimeTimeFormat" xml:space="preserve">
+    <value>{0:%h\:mm\:ss}</value>
+  </data>
+  <data name="ContextMenuExecGridItemHeader" xml:space="preserve">
+    <value>打开通道网格窗口</value>
+  </data>
+  <data name="ExportCommandsDialogTitle" xml:space="preserve">
+    <value>选择导出位置</value>
+  </data>
+  <data name="ImportCommandsDialogTitle" xml:space="preserve">
+    <value>选择包含命令的文件</value>
+  </data>
+  <data name="ExecutableConfigWindowScannerPort" xml:space="preserve">
+    <value>媒体扫描器端口</value>
+  </data>
+  <data name="ConfigWindowOptionsTabHtmlCachePath" xml:space="preserve">
+    <value>缓存路径</value>
+  </data>
+  <data name="ConfigWindowOptionsTabHtmlCachePathDescription" xml:space="preserve">
+    <value>（CEF 默认在可执行文件旁边写入缓存，可能会因权限问题而失败。此选项可更改为使用其他路径）</value>
+  </data>
+  <data name="ChannelColorDepth_8" xml:space="preserve">
+    <value>8 位</value>
+  </data>
+  <data name="ChannelColorDepth_16" xml:space="preserve">
+    <value>16 位</value>
+  </data>
+  <data name="ChannelColorSpace_BT709" xml:space="preserve">
+    <value>BT.709</value>
+  </data>
+  <data name="ChannelColorSpace_BT2020" xml:space="preserve">
+    <value>BT.2020</value>
+  </data>
+  <data name="DecklinkDefaultColorSpace_BT601" xml:space="preserve">
+    <value>BT.601</value>
+  </data>
+  <data name="DecklinkDefaultColorSpace_BT709" xml:space="preserve">
+    <value>BT.709</value>
+  </data>
+  <data name="DecklinkDefaultColorSpace_BT2020" xml:space="preserve">
+    <value>BT.2020</value>
+  </data>
+  <data name="ConfigWindowChannelsDlHdrMaxCll" xml:space="preserve">
+    <value>最大内容亮度</value>
+  </data>
+  <data name="ConfigWindowChannelsDlHdrMaxFall" xml:space="preserve">
+    <value>最大帧平均亮度</value>
+  </data>
+  <data name="ConfigWindowChannelsDlHdrMaxDml" xml:space="preserve">
+    <value>最大显示亮度</value>
+  </data>
+  <data name="ConfigWindowChannelsDlHdrMinDml" xml:space="preserve">
+    <value>最小显示亮度</value>
+  </data>
+  <data name="ConfigWindowChannelsDlHdrMetadata" xml:space="preserve">
+    <value>HDR 元数据</value>
+  </data>
+  <data name="ConfigWindowChannelsDlHdrDefaultColorSpace" xml:space="preserve">
+    <value>默认色彩空间</value>
+  </data>
+  <data name="ConfigWindowChannelsChannelColorSpace" xml:space="preserve">
+    <value>色彩空间</value>
+  </data>
+  <data name="ConfigWindowChannelsChannelColorDepth" xml:space="preserve">
+    <value>色彩深度</value>
+  </data>
+</root>
