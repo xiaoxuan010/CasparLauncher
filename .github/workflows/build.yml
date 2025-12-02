@@ -1,0 +1,59 @@
+name: Build CI
+
+on:
+  push:
+    branches: [ main, master, develop ]
+  pull_request:
+    branches: [ main, master, develop ]
+  workflow_dispatch:
+
+jobs:
+  build-framework-independent:
+    runs-on: windows-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: '8.0.x'
+        
+    - name: Restore dependencies
+      run: dotnet restore CasparLauncher.sln
+      
+    - name: Build and Publish (Framework Independent)
+      run: dotnet publish CasparLauncher.csproj /p:PublishProfile=Properties/PublishProfiles/FrameworkIndependent.pubxml -c Release
+      
+    - name: Upload Framework Independent Artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: CasparLauncher-FrameworkIndependent
+        path: bin/publish/
+        retention-days: 90
+
+  build-self-contained:
+    runs-on: windows-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: '8.0.x'
+        
+    - name: Restore dependencies
+      run: dotnet restore CasparLauncher.sln
+      
+    - name: Build and Publish (Self-Contained x64)
+      run: dotnet publish CasparLauncher.csproj /p:PublishProfile=Properties/PublishProfiles/SelfContained_x64.pubxml -c Release
+      
+    - name: Upload Self-Contained Artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: CasparLauncher-SelfContained-x64
+        path: bin/publish/SelfContained_x64/
+        retention-days: 90
