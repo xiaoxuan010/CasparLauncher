@@ -32,6 +32,7 @@ jobs:
         name: CasparLauncher-FrameworkIndependent
         path: bin/publish/
         retention-days: 90
+        if-no-files-found: error
 
   build-self-contained:
     runs-on: windows-latest
@@ -57,3 +58,4 @@ jobs:
         name: CasparLauncher-SelfContained-x64
         path: bin/publish/SelfContained_x64/
         retention-days: 90
+        if-no-files-found: error
